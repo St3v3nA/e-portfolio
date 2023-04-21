@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: #F1DEC9;
+}
+
+header {
+    background-color: #C8B6A6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+    height: 64px;
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+}
+
+a {
+    color: #675D50;
+    font-weight: 700;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+main {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding-top: 140px;
+}
+
+.projects-header {
+    width: 50%
+}
+
+h1 {
+    font-size: 100px;
+    color: #675D50;
+}   
