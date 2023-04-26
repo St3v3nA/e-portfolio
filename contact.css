@@ -16,6 +16,7 @@ header {
     width: 100%;
     padding: 10px;
     margin: auto;
+    position: fixed;
 }
 
 a {
@@ -65,4 +66,16 @@ h2 {
 
 .linkedin {
     padding: 24px 0px;
+}
+
+footer {
+    background-color: #675D50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+    height: 124px;
+    width: 100%;
+    padding: 10px 0px;
+    margin: auto;
 }

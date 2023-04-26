@@ -16,6 +16,7 @@ header {
     width: 100%;
     padding: 10px;
     margin: auto;
+    position: fixed;
 }
 
 a {
@@ -33,11 +34,67 @@ main {
     padding-top: 140px;
 }
 
-.projects-header {
-    width: 50%
-}
-
 h1 {
     font-size: 100px;
     color: #675D50;
+    padding: 12px 0px;
 }   
+
+.projects {
+    padding: 12px 124px;
+    font-size: 24px;
+    color: #675D50;
+}
+
+footer {
+    background-color: #675D50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+    height: 124px;
+    width: 100%;
+    padding: 10px 0px;
+    margin: auto;
+}
+
+.list{
+    display: flex;
+    flex-wrap: nowrap;
+    transition: transform 0.3s ease-out;
+    width: 60%; 
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-button {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    color: var(--text-color);
+    background-color: var(--main-color);
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+.prev {
+    left: 0;
+}
+.next {
+    right: 0;
+}
+.project-slider {
+    flex: 0 0 calc(100% / 3);
+    max-width: 200px;
+    height: 500px;
+    background-color: var(--scroll-color);
+    margin: 0 20px;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+}
+
+.project-slider img {
+    width: 200px;
+    height: 300px;
+}
