@@ -4,7 +4,7 @@ const prevButton = document.querySelector('.prev');
 const nextButton = document.querySelector('.next');
 let currentIndex = 0;
 const slideWidth = sliderList.offsetWidth / 3;
-const maxIndex = Math.ceil(projects.length / 2) - 1;
+const maxIndex = Math.ceil(projects.length / 1.5) - 1;
 
 
 function updateSlider() {

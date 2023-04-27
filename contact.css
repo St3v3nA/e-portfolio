@@ -24,6 +24,12 @@ a {
     font-weight: 700;
     font-size: 22px;
     text-decoration: none;
+    font-family: 'Righteous', cursive;
+    padding-left: 164px;
+}
+
+p {
+    padding-left: 164px;
 }
 
 main {
@@ -38,35 +44,78 @@ main {
     padding: 12px 124px;
     font-size: 24px;
     color: #675D50;
+    font-family: 'Righteous', cursive;
 }
 
 h1 {
     font-size: 100px;
     padding: 12px 0px;
     color: #675D50;
+    font-family: 'Righteous', cursive;
 }
 
 h2 {
     font-size: 64px;
     padding: 12px 0px;
     color: #675D50;
+    font-family: 'Righteous', cursive;
 }
 
 .phone {
     padding: 24px 0px;
 }
 
+.phone-div2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
 .gmail {
     padding: 24px 0px;
+}
+
+.gmail-div2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
 }
 
 .github {
     padding: 24px 0px;
 }
 
+.github-div2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
 .linkedin {
     padding: 24px 0px;
 }
+
+.linkedin-div2 {display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.slack {
+    padding: 24px 0px;
+}
+
+.slack-div2 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 24px;
+}
+
+.size {
+    height: 100px;
+    width: 100px;
+}
+
+
 
 footer {
     background-color: #675D50;
@@ -78,4 +127,9 @@ footer {
     width: 100%;
     padding: 10px 0px;
     margin: auto;
+    font-family: 'Righteous', cursive;
+}
+
+footer a {
+    color: #F1DEC9;
 }
