@@ -4,6 +4,7 @@
 
 body {
     background-color: #F1DEC9;
+    width: 100%;
 }
 
 header {
@@ -17,6 +18,17 @@ header {
     padding: 10px;
     margin: auto;
     position: fixed;
+    z-index: 2;
+    border-bottom: 4px solid #675D50;
+}
+
+main a {
+    color: #675D50;
+    font-weight: 700;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+    padding-left: 164px;
 }
 
 a {
@@ -25,7 +37,6 @@ a {
     font-size: 22px;
     text-decoration: none;
     font-family: 'Righteous', cursive;
-    padding-left: 164px;
 }
 
 p {

@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-html {
-    margin: 0;
-    padding: 0;
-}
 
 body {
     background-color: #F1DEC9;
@@ -24,6 +20,8 @@ header {
     width: 100%;
     margin: auto;
     position: fixed;
+    z-index: 2;
+    border-bottom: 4px solid #675D50;
 }
 
 a {
