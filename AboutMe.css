@@ -32,6 +32,14 @@ a {
     font-family: 'Righteous', cursive;
 }
 
+footer p {
+    color: #F1DEC9;
+    font-weight: 700;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Righteous', cursive;
+}
+
 main {
     width: 80%;
     display: flex;
