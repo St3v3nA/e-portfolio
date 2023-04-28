@@ -4,12 +4,12 @@
 }
 
 body {
-    background-color: #F1DEC9;
+    background-color: #DFF6FF;
     width: 100%;
 }
 
 header {
-    background-color: #C8B6A6;
+    background-color: #1363DF;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -20,21 +20,11 @@ header {
     margin: auto;
     position: fixed;
     z-index: 2;
-    border-bottom: 4px solid #675D50;
-}
-
-.header-name {
-    display: grid;
-    justify-content: flex-start;
-    color: #675D50;
-    font-weight: 700;
-    font-size: 22px;
-    text-decoration: none;
-    font-family: 'Righteous', cursive;
+    border-bottom: 8px solid #06283D;
 }
 
 a {
-    color: #675D50;
+    color: #DFF6FF;
     font-weight: 700;
     font-size: 22px;
     text-decoration: none;
@@ -51,7 +41,7 @@ main {
 
 h1 {
     font-size: 100px;
-    color: #675D50;
+    color: #06283D;
     padding: 12px 0px;
     font-family: 'Righteous', cursive;
 }   
@@ -71,7 +61,7 @@ h1 {
 .projects {
     padding: 12px 124px;
     font-size: 24px;
-    color: #675D50;
+    color: #DFF6FF;
     font-family: 'Righteous', cursive;
     width: 90%; 
     overflow: hidden;
@@ -103,8 +93,8 @@ h1 {
     width: 300px;
     height: 500px;
     text-align: center;
-    border: 4px solid #675D50;
-    background-color: #C8B6A6;
+    border: 4px solid #06283D;
+    background-color: #1363DF;
 }
 .card img {
     max-width: 100%;
@@ -113,7 +103,7 @@ h1 {
 }
 
 footer {
-    background-color: #675D50;
+    background-color: #1363DF;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -123,14 +113,15 @@ footer {
     padding: 10px 0px;
     margin: auto;
     font-family: 'Righteous', cursive;
+    border-top: 8px solid #06283D;
 }
 
 footer a {
-    color: #F1DEC9;
+    color: #DFF6FF;
 }
 
 footer p {
-    color: #F1DEC9;
+    color: #DFF6FF;
     font-weight: 700;
     font-size: 22px;
     text-decoration: none;
@@ -153,7 +144,7 @@ footer p {
     font-size: 30px;
     cursor: pointer;
     height: 1000px;
-    background-color: #F1DEC9;
+    background-color: #DFF6FF;
     width: 45px;
 }
 .prev {
